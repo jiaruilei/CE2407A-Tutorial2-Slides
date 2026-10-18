@@ -1,0 +1,170 @@
+{
+  "render_dpi": 288,
+  "raster_pixels_per_pdf_point": 4.0,
+  "css_pixels_per_pdf_point": 2,
+  "coordinate_system": "PDF points from page top-left",
+  "sources": [
+    {
+      "set": 1,
+      "filename": "CE2407A Tutorial Questions Set 1.pdf",
+      "sha256": "cc4f5b505bd4b5350ded9ebe5a80118ea60b3da3b0a67c50245f1fc767753fd8"
+    },
+    {
+      "set": 2,
+      "filename": "CE2407A Tutorial Questions Set 2.pdf",
+      "sha256": "465cd1dc0a11aa7f07fe1da6b689057379235418eaadd267cecf8e4b08dced8f"
+    }
+  ],
+  "snapshots": [
+    {
+      "file": "set1-q6.png",
+      "set": 1,
+      "question": 6,
+      "page": 4,
+      "bbox_pt": [
+        92,
+        53,
+        521,
+        323
+      ],
+      "position_css": [
+        98,
+        132
+      ],
+      "alt": "Tutorial Set 1, Question 6. \"Liquefaction of sand\" denotes a phenomenon in foundation engineering of which a mass of saturated sand suddenly loses its bearing capacity because of rapid changes in loading conditions, for example, resulting from earthquake vibrations. When this happens, disastrous effects on the structures may follow. For simplicity, let us rate the earthquake intensities into low (L), medium (M), and high (H). The likelihoods of liquefaction associated with the earthquakes of these intensities are 0.05, 0.20, and 0.90, respectively. Assume that the relative frequencies of occurrence of earthquakes L, M, and H are 1, 0.1, and 0.01 per year, respectively. (a) What is the probability that the next earthquake is of low intensity (L)? (b) What is the probability of liquefaction of sand at the site during the next earthquake? (c) What is the probability that the sand will survive for the next three earthquakes (that is, no liquefaction)? Assume the conditions between earthquakes are statistically independent. (d) What is the probability that the earthquake is low intensity if there is liquefaction?",
+      "dimensions_css": [
+        858,
+        540
+      ],
+      "dimensions_px": [
+        1716,
+        1080
+      ]
+    },
+    {
+      "file": "set1-q7.png",
+      "set": 1,
+      "question": 7,
+      "page": 4,
+      "bbox_pt": [
+        92,
+        356,
+        521,
+        596
+      ],
+      "position_css": [
+        98,
+        132
+      ],
+      "alt": "Tutorial Set 1, Question 7. Two independent remote sensing devices, A and B, mounted on an airplane are used to determine the locations of diseased trees in a large area of forest land. The detectability of device A is 0.8 (that is, the probability that a group of diseased trees will be detected by device A is 0.8), whereas the detectability of device B is 0.9. However, when a group of diseased trees has been detected its location may not be pinpointed accurately by either device. Based on a detection from device A alone, the location can be accurately determined with probability 0.7, whereas the corresponding probability with device B alone is only 0.4. If the same group of diseased trees is detected by both devices, its location can be pinpointed with certainty. Determine the following. (a) The probability that a group of diseased trees will be detected. (b) The probability that a group of diseased trees will be detected by only one device. (c) The probability of accurately locating a group of diseased trees.",
+      "dimensions_css": [
+        858,
+        480
+      ],
+      "dimensions_px": [
+        1716,
+        960
+      ]
+    },
+    {
+      "file": "set2-q1.png",
+      "set": 2,
+      "question": 1,
+      "page": 1,
+      "bbox_pt": [
+        92,
+        144,
+        521,
+        316
+      ],
+      "position_css": [
+        98,
+        132
+      ],
+      "alt": "Tutorial Set 2, Question 1. A contractor is submitting bids to 3 jobs, A, B, and C. The probabilities that he will win each of the three jobs are P(A)=0.5, P(B)=0.8, and P(C)=0.2, respectively. Assume events A, B, C are statistically independent. Let X be the total number of jobs the contractor will win. (a) What are the possible values of X? Compute and plot the probability mass function (PMF) of the random variable X. (b) Plot the cumulative distribution function of X. (c) Determine P(X less than or equal to 2). (d) Determine P(0 less than X less than or equal to 2).",
+      "dimensions_css": [
+        858,
+        344
+      ],
+      "dimensions_px": [
+        1716,
+        688
+      ]
+    },
+    {
+      "file": "set2-q2-statement.png",
+      "set": 2,
+      "question": 2,
+      "page": 1,
+      "bbox_pt": [
+        92,
+        339,
+        431,
+        414
+      ],
+      "position_css": [
+        98,
+        132
+      ],
+      "alt": "Tutorial Set 2, Question 2. The probability density function is f_R(r)=c(r-10)(20-r) for 10 less than or equal to r less than or equal to 20, and zero elsewhere, where c is a constant.",
+      "dimensions_css": [
+        678,
+        150
+      ],
+      "dimensions_px": [
+        1356,
+        300
+      ]
+    },
+    {
+      "file": "set2-q2-diagram.png",
+      "set": 2,
+      "question": 2,
+      "page": 1,
+      "bbox_pt": [
+        180,
+        423,
+        386,
+        553
+      ],
+      "position_css": [
+        98,
+        310
+      ],
+      "alt": "Question 2 probability density graph, with vertical axis f_R(r) and horizontal axis r. The curve is a downward-opening parabola meeting the horizontal axis at r=10 and r=20.",
+      "dimensions_css": [
+        412,
+        260
+      ],
+      "dimensions_px": [
+        824,
+        520
+      ]
+    },
+    {
+      "file": "set2-q2-parts.png",
+      "set": 2,
+      "question": 2,
+      "page": 1,
+      "bbox_pt": [
+        92,
+        554,
+        339,
+        725
+      ],
+      "position_css": [
+        550,
+        310
+      ],
+      "alt": "Question 2 parts: (a) What is the value of c? (b) Derive the cumulative distribution function F_R(r). (c) Determine i. Mean value of R; ii. Median of R; iii. Mode of R; iv. Standard deviation of R; v. Coefficient of variation of R; vi. Skewness coefficient.",
+      "dimensions_css": [
+        494,
+        342
+      ],
+      "dimensions_px": [
+        988,
+        684
+      ]
+    }
+  ]
+}

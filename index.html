@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CE2407A Tutorial 2. Tutorial 1 Q6 and Q7, and Tutorial 2 Q1 and Q2: earthquakes, detectors, contractor bids and density functions.">
+  <title>Tutorial 2 · CE2407A</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="reveal.css">
+  <link rel="stylesheet" href="annotations.css?v=tutorial2-1">
+  <link rel="stylesheet" href="styles.css?v=tutorial2-1">
+  <link rel="stylesheet" href="question-viewer.css?v=tutorial2-1">
+</head>
+<body>
+<nav class="study-controls" aria-label="Study controls">
+  <div class="question-navigation">
+    <button id="question-menu-toggle" type="button" aria-expanded="false" aria-controls="question-menu" aria-label="Choose question"><span id="current-question">Questions</span><span aria-hidden="true">▾</span></button>
+    <nav id="question-menu" class="question-menu" aria-label="Question navigation" hidden>
+      <a class="menu-home" href="#/slide-1">Tutorial 2</a>
+      <div class="question-menu-row"><span>T1 Q6 <small>Earthquakes</small></span><a href="#/question-t1-q6" aria-label="T1 Q6 question">Question</a><a href="#/slide-2" aria-label="T1 Q6 explore">Explore</a></div>
+      <div class="question-menu-row"><span>T1 Q7 <small>Detectors</small></span><a href="#/question-t1-q7" aria-label="T1 Q7 question">Question</a><a href="#/slide-3" aria-label="T1 Q7 explore">Explore</a></div>
+      <div class="question-menu-row"><span>T2 Q1 <small>Bids</small></span><a href="#/question-t2-q1" aria-label="T2 Q1 question">Question</a><a href="#/slide-4" aria-label="T2 Q1 explore">Explore</a></div>
+      <div class="question-menu-row"><span>T2 Q2 <small>PDF &amp; CDF</small></span><a href="#/question-t2-q2" aria-label="T2 Q2 question">Question</a><a href="#/slide-5" aria-label="T2 Q2 explore">Explore</a></div>
+    </nav>
+  </div>
+  <div class="study-actions">
+    <button id="view-question" type="button" hidden>View larger</button>
+    <a id="open-exercise" href="https://jiaruilei.github.io/CE2407A_Tutorial2/" target="_blank" rel="noopener">Open exercises</a>
+  </div>
+</nav>
+<main class="reveal" aria-label="CE2407A Tutorial 2 presentation">
+  <div class="slides">
+    <section id="slide-1" class="cover" data-title="Tutorial 2" aria-label="Slide 1: Tutorial 2">
+      <a class="cover-qr" href="https://jiaruilei.github.io/CE2407A-Tutorial2-Slides/#/slide-1" aria-label="Open the tutorial slides">
+        <img src="assets/tutorial-slides-qr.svg" width="400" height="400" alt="QR code linking to these Tutorial 2 slides" draggable="false">
+        <span>Open the slides</span>
+      </a>
+      <div class="cover-copy">
+        <p class="course-code">CE2407A</p>
+        <h1>Tutorial 2</h1>
+        <p class="cover-topic">Probability models</p>
+        <p class="cover-week">Week 10</p>
+        <p class="cover-author">Assistant Professor Lei Jiarui, Gary<br>Civil and Environmental Engineering<br>National University of Singapore</p>
+      </div>
+    </section>
+    <section id="question-t1-q6" class="question-statement" data-question="6" data-tutorial="1" data-exercise-url="https://jiaruilei.github.io/CE2407A_Tutorial1/?question=q6" data-title="T1 Q6 · Question statement" aria-label="Slide 2: Tutorial 1 Question 6 statement">
+      <h1 class="slide-heading">Tutorial 1 · Question 6</h1>
+      <img class="question-crop" src="assets/questions/set1-q6.png" width="858" height="540" style="left:98px;top:132px" alt="Tutorial Set 1, Question 6. &quot;Liquefaction of sand&quot; denotes a phenomenon in foundation engineering of which a mass of saturated sand suddenly loses its bearing capacity because of rapid changes in loading conditions, for example, resulting from earthquake vibrations. When this happens, disastrous effects on the structures may follow. For simplicity, let us rate the earthquake intensities into low (L), medium (M), and high (H). The likelihoods of liquefaction associated with the earthquakes of these intensities are 0.05, 0.20, and 0.90, respectively. Assume that the relative frequencies of occurrence of earthquakes L, M, and H are 1, 0.1, and 0.01 per year, respectively. (a) What is the probability that the next earthquake is of low intensity (L)? (b) What is the probability of liquefaction of sand at the site during the next earthquake? (c) What is the probability that the sand will survive for the next three earthquakes (that is, no liquefaction)? Assume the conditions between earthquakes are statistically independent. (d) What is the probability that the earthquake is low intensity if there is liquefaction?" draggable="false">
+
+    </section>
+    <section id="slide-2" data-question="6" data-tutorial="1" data-exercise-url="https://jiaruilei.github.io/CE2407A_Tutorial1/?question=q6" data-title="T1 Q6 · Earthquakes &amp; liquefaction" aria-label="Slide 3: Tutorial 1 Question 6 interactive">
+      <h1 class="slide-heading">T1 Q6 · Earthquakes &amp; liquefaction</h1>
+      <div class="web-panel">
+        <div class="web-toolbar">
+          <span class="web-label">Tutorial 1 · Question 6</span>
+          <button class="expand-web" type="button" aria-expanded="false">Enlarge exercise</button>
+          <details class="exercise-options"><summary>More</summary><div class="exercise-menu"><p>Resets this exercise and its chat.</p><button class="reload-web" type="button">Reset exercise</button></div></details>
+        </div>
+        <div class="web-viewport">
+          <div class="web-loading" role="status">Loading question…</div>
+          <iframe title="Tutorial 1 Question 6: Earthquakes &amp; liquefaction" data-web-src="https://jiaruilei.github.io/CE2407A_Tutorial1/?question=q6&amp;embed=1" allow="fullscreen" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+      </div>
+    </section>
+    <section id="question-t1-q7" class="question-statement" data-question="7" data-tutorial="1" data-exercise-url="https://jiaruilei.github.io/CE2407A_Tutorial1/?question=q7" data-title="T1 Q7 · Question statement" aria-label="Slide 4: Tutorial 1 Question 7 statement">
+      <h1 class="slide-heading">Tutorial 1 · Question 7</h1>
+      <img class="question-crop" src="assets/questions/set1-q7.png" width="858" height="480" style="left:98px;top:132px" alt="Tutorial Set 1, Question 7. Two independent remote sensing devices, A and B, mounted on an airplane are used to determine the locations of diseased trees in a large area of forest land. The detectability of device A is 0.8 (that is, the probability that a group of diseased trees will be detected by device A is 0.8), whereas the detectability of device B is 0.9. However, when a group of diseased trees has been detected its location may not be pinpointed accurately by either device. Based on a detection from device A alone, the location can be accurately determined with probability 0.7, whereas the corresponding probability with device B alone is only 0.4. If the same group of diseased trees is detected by both devices, its location can be pinpointed with certainty. Determine the following. (a) The probability that a group of diseased trees will be detected. (b) The probability that a group of diseased trees will be detected by only one device. (c) The probability of accurately locating a group of diseased trees." draggable="false">
+
+    </section>
+    <section id="slide-3" data-question="7" data-tutorial="1" data-exercise-url="https://jiaruilei.github.io/CE2407A_Tutorial1/?question=q7" data-title="T1 Q7 · Two independent detectors" aria-label="Slide 5: Tutorial 1 Question 7 interactive">
+      <h1 class="slide-heading">T1 Q7 · Two independent detectors</h1>
+      <div class="web-panel">
+        <div class="web-toolbar">
+          <span class="web-label">Tutorial 1 · Question 7</span>
+          <button class="expand-web" type="button" aria-expanded="false">Enlarge exercise</button>
+          <details class="exercise-options"><summary>More</summary><div class="exercise-menu"><p>Resets this exercise and its chat.</p><button class="reload-web" type="button">Reset exercise</button></div></details>
+        </div>
+        <div class="web-viewport">
+          <div class="web-loading" role="status">Loading question…</div>
+          <iframe title="Tutorial 1 Question 7: Two independent detectors" data-web-src="https://jiaruilei.github.io/CE2407A_Tutorial1/?question=q7&amp;embed=1" allow="fullscreen" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+      </div>
+    </section>
+    <section id="question-t2-q1" class="question-statement" data-question="1" data-tutorial="2" data-exercise-url="https://jiaruilei.github.io/CE2407A_Tutorial2/?question=q1" data-title="T2 Q1 · Question statement" aria-label="Slide 6: Tutorial 2 Question 1 statement">
+      <h1 class="slide-heading">Tutorial 2 · Question 1</h1>
+      <img class="question-crop" src="assets/questions/set2-q1.png" width="858" height="344" style="left:98px;top:132px" alt="Tutorial Set 2, Question 1. A contractor is submitting bids to 3 jobs, A, B, and C. The probabilities that he will win each of the three jobs are P(A)=0.5, P(B)=0.8, and P(C)=0.2, respectively. Assume events A, B, C are statistically independent. Let X be the total number of jobs the contractor will win. (a) What are the possible values of X? Compute and plot the probability mass function (PMF) of the random variable X. (b) Plot the cumulative distribution function of X. (c) Determine P(X less than or equal to 2). (d) Determine P(0 less than X less than or equal to 2)." draggable="false">
+
+    </section>
+    <section id="slide-4" data-question="1" data-tutorial="2" data-exercise-url="https://jiaruilei.github.io/CE2407A_Tutorial2/?question=q1" data-title="T2 Q1 · Contractor bids" aria-label="Slide 7: Tutorial 2 Question 1 interactive">
+      <h1 class="slide-heading">T2 Q1 · Contractor bids</h1>
+      <div class="web-panel">
+        <div class="web-toolbar">
+          <span class="web-label">Tutorial 2 · Question 1</span>
+          <button class="expand-web" type="button" aria-expanded="false">Enlarge exercise</button>
+          <details class="exercise-options"><summary>More</summary><div class="exercise-menu"><p>Resets this exercise and its chat.</p><button class="reload-web" type="button">Reset exercise</button></div></details>
+        </div>
+        <div class="web-viewport">
+          <div class="web-loading" role="status">Loading question…</div>
+          <iframe title="Tutorial 2 Question 1: Contractor bids" data-web-src="https://jiaruilei.github.io/CE2407A_Tutorial2/?question=q1&amp;embed=1" allow="fullscreen" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+      </div>
+    </section>
+    <section id="question-t2-q2" class="question-statement" data-question="2" data-tutorial="2" data-exercise-url="https://jiaruilei.github.io/CE2407A_Tutorial2/?question=q2" data-title="T2 Q2 · Question statement" aria-label="Slide 8: Tutorial 2 Question 2 statement">
+      <h1 class="slide-heading">Tutorial 2 · Question 2</h1>
+      <img class="question-crop" src="assets/questions/set2-q2-statement.png" width="678" height="150" style="left:98px;top:132px" alt="Tutorial Set 2, Question 2. The probability density function is f_R(r)=c(r-10)(20-r) for 10 less than or equal to r less than or equal to 20, and zero elsewhere, where c is a constant." draggable="false">
+      <img class="question-crop" src="assets/questions/set2-q2-diagram.png" width="412" height="260" style="left:98px;top:310px" alt="Question 2 probability density graph, with vertical axis f_R(r) and horizontal axis r. The curve is a downward-opening parabola meeting the horizontal axis at r=10 and r=20." draggable="false">
+      <img class="question-crop" src="assets/questions/set2-q2-parts.png" width="494" height="342" style="left:550px;top:310px" alt="Question 2 parts: (a) What is the value of c? (b) Derive the cumulative distribution function F_R(r). (c) Determine i. Mean value of R; ii. Median of R; iii. Mode of R; iv. Standard deviation of R; v. Coefficient of variation of R; vi. Skewness coefficient." draggable="false">
+
+    </section>
+    <section id="slide-5" data-question="2" data-tutorial="2" data-exercise-url="https://jiaruilei.github.io/CE2407A_Tutorial2/?question=q2" data-title="T2 Q2 · Density &amp; moments" aria-label="Slide 9: Tutorial 2 Question 2 interactive">
+      <h1 class="slide-heading">T2 Q2 · Density &amp; moments</h1>
+      <div class="web-panel">
+        <div class="web-toolbar">
+          <span class="web-label">Tutorial 2 · Question 2</span>
+          <button class="expand-web" type="button" aria-expanded="false">Enlarge exercise</button>
+          <details class="exercise-options"><summary>More</summary><div class="exercise-menu"><p>Resets this exercise and its chat.</p><button class="reload-web" type="button">Reset exercise</button></div></details>
+        </div>
+        <div class="web-viewport">
+          <div class="web-loading" role="status">Loading question…</div>
+          <iframe title="Tutorial 2 Question 2: Density &amp; moments" data-web-src="https://jiaruilei.github.io/CE2407A_Tutorial2/?question=q2&amp;embed=1" allow="fullscreen" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+<nav class="deck-controls" aria-label="Presentation controls">
+  <button id="previous" type="button" aria-label="Previous slide" title="Previous (Left arrow)">‹</button>
+  <span id="counter" aria-live="polite">1 / 9</span>
+  <button id="next" type="button" aria-label="Next slide" title="Next (Right arrow)">›</button>
+  <span class="divider" aria-hidden="true"></span>
+  <button id="ink-toggle" type="button" aria-expanded="false" aria-controls="ink-toolbar" title="Annotation tools">Ink</button>
+  <button id="overview" type="button" title="Slide overview (O)">Overview</button>
+  <button id="fullscreen" type="button" title="Full screen (F)">Full screen</button>
+</nav>
+<div id="ink-toolbar" class="ink-toolbar" role="toolbar" aria-label="Annotation tools" hidden>
+  <div class="ink-tools" role="group" aria-label="Drawing tool">
+    <button type="button" data-ink-tool="pointer" aria-pressed="true" title="Use the interactive questions (Escape)">Pointer</button>
+    <button type="button" data-ink-tool="pen" aria-pressed="false" title="Draw with a pen">Pen</button>
+    <button type="button" data-ink-tool="highlighter" aria-pressed="false" title="Highlight without covering the text">Highlighter</button>
+    <button type="button" data-ink-tool="eraser" aria-pressed="false" title="Erase a whole stroke">Eraser</button>
+  </div>
+  <div class="ink-colors" role="group" aria-label="Ink color">
+    <button type="button" class="ink-color" data-ink-color="#e53935" style="--swatch:#e53935" aria-label="Red ink" aria-pressed="true" title="Red"></button>
+    <button type="button" class="ink-color" data-ink-color="#2563eb" style="--swatch:#2563eb" aria-label="Blue ink" aria-pressed="false" title="Blue"></button>
+    <button type="button" class="ink-color" data-ink-color="#172b4d" style="--swatch:#172b4d" aria-label="Dark ink" aria-pressed="false" title="Dark"></button>
+    <button type="button" class="ink-color" data-ink-color="#16834a" style="--swatch:#16834a" aria-label="Green ink" aria-pressed="false" title="Green"></button>
+    <button type="button" class="ink-color" data-ink-color="#ffd43b" style="--swatch:#ffd43b" aria-label="Yellow ink" aria-pressed="false" title="Yellow"></button>
+    <button type="button" class="ink-color" data-ink-color="#ffffff" style="--swatch:#ffffff" aria-label="White ink" aria-pressed="false" title="White"></button>
+  </div>
+  <select id="ink-width" aria-label="Ink thickness" title="Ink thickness">
+    <option value="2">Thin</option><option value="4" selected>Medium</option><option value="7">Thick</option>
+  </select>
+  <div class="ink-history" role="group" aria-label="Edit ink">
+    <button id="ink-undo" type="button" title="Undo ink (Ctrl+Z)" disabled>Undo</button>
+    <button id="ink-redo" type="button" title="Redo ink (Ctrl+Y)" disabled>Redo</button>
+    <button id="ink-clear" type="button" title="Clear ink in this view. Undo restores it." disabled>Clear ink</button>
+  </div>
+  <span id="ink-status" class="ink-sr-only" role="status" aria-live="polite"></span>
+</div>
+<div id="notice" role="status" hidden></div>
+<script src="reveal.js"></script>
+<script type="module" src="presentation.js?v=tutorial2-1"></script>
+</body>
+</html>

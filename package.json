@@ -1,0 +1,6 @@
+{
+  "name": "ce2407a-tutorial2-slides",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test" }
+}
