@@ -1,5 +1,5 @@
 // Include the source tutorial in statement keys so question numbers stay unambiguous.
-const SLIDE_KEY = /^(?:slide-[1-5](?::expanded)?|question-t1-q[67]|question-t2-q[12])$/;
+const SLIDE_KEY = /^(?:slide-[1-5](?::expanded)?|question-t1-q[67]|question-t2-q[12]|whiteboard)$/;
 const MAX_STROKES = 5000;
 const MAX_POINTS = 200000;
 const MAX_COORDINATE = 1e7;

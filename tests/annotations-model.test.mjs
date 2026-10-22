@@ -77,13 +77,13 @@ test('serialized current ink round-trips, preserves document coordinates and res
   assert.equal(destination.get('slide-3:expanded').length, 0);
 });
 
-test('all four source-specific question statements keep independent editable histories and saved ink', () => {
+test('question statements and whiteboard keep independent editable histories and saved ink', () => {
   const interactiveKeys = ['slide-1', 'slide-2', 'slide-3', 'slide-4', 'slide-5',
     'slide-2:expanded', 'slide-3:expanded', 'slide-4:expanded', 'slide-5:expanded'];
   const existing = { version: 1, slides: Object.fromEntries(interactiveKeys.map(key => [key, [stroke(`existing-${key}`)]])) };
   const history = new InkHistory();
   assert.equal(history.load(JSON.stringify(existing)), true);
-  const questionKeys = ['question-t1-q6', 'question-t1-q7', 'question-t2-q1', 'question-t2-q2'];
+  const questionKeys = ['question-t1-q6', 'question-t1-q7', 'question-t2-q1', 'question-t2-q2', 'whiteboard'];
   for (const key of questionKeys) {
     assert.equal(history.add(key, stroke(`new-${key}`)), true);
     assert.equal(history.clear(key), true);
@@ -110,6 +110,7 @@ test('invalid loads are atomic and cannot inject keys, bad coordinates or extra 
     '{bad JSON', null, { version: 2, slides: {} }, { version: 1, slides: [] },
     { version: 1, slides: new Date() }, { version: 1, slides: new Map() },
     { version: 1, slides: { 'slide-6': [] } }, { version: 1, slides: { 'slide-2:other': [] } },
+    { version: 1, slides: { 'whiteboard:expanded': [] } },
     { version: 1, slides: { 'question-1': [] } }, { version: 1, slides: { 'question-t1-q6:expanded': [] } },
     { version: 1, slides: { 'question-t1-q1': [] } }, { version: 1, slides: { 'question-t2-q6': [] } },
     { version: 1, slides: { 'question-t3-q1': [] } }, { version: 1, slides: { 'question-t2-q3': [] } },

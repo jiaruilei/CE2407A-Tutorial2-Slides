@@ -1,6 +1,6 @@
 # CE2407A Tutorial 2
 
-Nine web slides for Tutorial 2, Week 10. Covers Tutorial Questions Set 1, Q6 and Q7, then Set 2, Q1 and Q2.
+Ten web slides for Tutorial 2, Week 10. Covers Tutorial Questions Set 1, Q6 and Q7, then Set 2, Q1 and Q2, followed by a blank whiteboard.
 
 1. Tutorial 2
 2. Tutorial 1 Q6: Original question statement
@@ -11,6 +11,7 @@ Nine web slides for Tutorial 2, Week 10. Covers Tutorial Questions Set 1, Q6 and
 7. Tutorial 2 Q1: Contractor bids
 8. Tutorial 2 Q2: Original question statement
 9. Tutorial 2 Q2: Density and moments
+10. Blank whiteboard for handwritten equations
 
 ## Present
 
@@ -28,6 +29,8 @@ The live exercises need an internet connection. T1 Q6 and T1 Q7 embed [CE2407A_T
 
 ## Annotate
 
+The final slide is a blank whiteboard. Reach it with the next-slide button after T2 Q2, or choose **Whiteboard** from the top menu. Select **Ink** to write equations. It supports the same pen, highlighter, eraser, undo/redo and automatic saving as the other slides.
+
 Select **Ink** in the bottom controls to open the annotation toolbar. Use Pen or Highlighter with a classroom pen, mouse or touch input. Choose a color and thickness. Eraser removes a whole stroke. Undo, Redo and Clear ink apply to the current slide view. Clearing is undoable.
 
 Choose **Pointer** or press Escape to interact with the question. Ink drawn over the embedded question follows its main page as you scroll. Scrolling inside the chat or other nested panels, and opening content that changes the layout, does not reposition existing ink. Normal and expanded layouts keep separate ink because the question reflows when expanded. Full screen and window resizing preserve alignment. Ink remains visible when the toolbar is closed.
@@ -44,7 +47,7 @@ The 1280 × 720 layout, navy and orange palette, Arial type, title positions, qu
 
 Question statements are cropped from the supplied Set 1 PDF (page 4, Q6 and Q7) and Set 2 PDF (page 1, Q1 and Q2). Every crop is rendered at 288 dpi and displayed at 2 CSS pixels per PDF point. Set 2 Q2 places its original diagram and subparts side by side below the statement and formula, retaining the same scale. The source manifest records every crop boundary and source PDF checksum. The original PDFs are not included in the repository.
 
-The statement IDs are `question-t1-q6`, `question-t1-q7`, `question-t2-q1` and `question-t2-q2`. Cover and explore IDs are `slide-1` through `slide-5`. Keep these IDs and the ink namespace stable when editing content.
+The statement IDs are `question-t1-q6`, `question-t1-q7`, `question-t2-q1` and `question-t2-q2`. Cover and explore IDs are `slide-1` through `slide-5`; the final blank slide is `whiteboard`. Keep these IDs and the ink namespace stable when editing content.
 
 ## Local preview
 
